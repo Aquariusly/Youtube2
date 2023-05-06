@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    top: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: white;
+}
+
+.ImageVideo{
+    border-radius: 15px;
+    width: 270px;
+}
+.Imperfil{
+    border-radius: 20px;
+}
+
+#Perfilid{
+    border-radius: 20px;
+}
+
+body{
+    display: grid;
+    width: 100%;
+    background-color: #000;
+    grid-template-columns: 8% 92%;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;;
+}
+
+#mic{
+    display: flex;
+    background-color: rgb(36, 36, 36);
+    border-radius: 40px;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    margin: 10px;
+}
+
+#lupa{
+    display: flex;
+    background-color: rgb(36, 36, 36);
+    height: 40px;
+    width: 60px;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 255, 0);
+}
+
+#buscador input{
+        width: 550px;
+        height: 40px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-style: solid;
+        border-width: 1px;
+        font-family: sans-serif;
+        font-size: 15px;
+        border-color: rgb(0, 255, 0);
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+        padding-left: 15px;
+}
+
+aside a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+aside a p{
+    color: rgb(0, 255, 0);
+    font-family: roboto;
+    font-size: 12px;
+}
+
+#botones a{
+    border-radius: 10px;
+    background-color: rgb(0, 255, 0);
+    color: rgb(0, 0, 0);
+    width: auto;
+    padding: 5px;
+}
+
+#botones{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+div input{
+    font-size: x-large;
+    height: 20px;
+    text-align: left;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+div{
+    justify-content: center;
+    padding: 0;
+    margin: 3px;
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+}
+
+.Videos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+}
+
+.DescripcionVideo{
+    padding-right: 10px;
+}
+
+.Video{
+    justify-content: center;
+    align-items: center;
+}
+
+.ImagePerfil{
+    display: flex;
+}
+
+.titulovideo{
+    font-weight: 800;
+    font-size: 15px;
+}
+
+#contenido{
+    border-bottom: 5px;
+    border-radius: 5px;
+    border-top: 5px;
+    border: solid gray;
+}
+
+#short{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+#short img{
+    width: 40px;
+}
+
+#shorts{
+    display: grid;
+    font-weight: 800;
+    font-size: 15px;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.imagenes{
+    width: 161px;
+    height: 285px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#contenido{
+    border-style: solid;
+    border-left: #000;
+    border-right: #000;
+}
+
+h5{
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.parrafo{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.short{
+    width: 161px;
+}
